@@ -1,0 +1,11 @@
+{
+  "name": "p5cljs-template",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.20.15"
+  },
+  "dependencies": {
+    "p5": "^1.5.0"
+  }
+}

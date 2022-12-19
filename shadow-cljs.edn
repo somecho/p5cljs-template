@@ -1,0 +1,13 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dev-http {3000 "public"}
+
+ :dependencies
+ []
+
+ :builds
+ {:sketch {:target :browser
+           :compiler-options {:optimizations :advanced}
+           :modules {:main {:entries [sketch]}}}}}
